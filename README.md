@@ -2,6 +2,8 @@
 
 `borsh-clone` provides a procedural derive macro `BorshClone` for Rust that implements `Clone` for a type by serializing and deserializing it using [`borsh`](https://crates.io/crates/borsh).
 
+Use in tests when `clone` shortcut is convenient and alternative clone implementation is not legit.
+
 ## Usage
 
 Add `borsh` and `borsh-clone` to your `Cargo.toml`:
