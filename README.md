@@ -10,7 +10,7 @@ Add `borsh` and `borsh-clone` to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-borsh = { version = "1.5", features = ["derive"] }
+borsh = { version = "1.6", features = ["derive"] }
 borsh-clone = "0.1"
 ```
 
